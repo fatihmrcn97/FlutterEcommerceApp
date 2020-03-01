@@ -1,0 +1,298 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ecommerce"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:5-80
+11-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:7:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:5-81
+12-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:8:22-78
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[:firebase_analytics] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:7:5-79
+13-->[:firebase_analytics] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[:firebase_analytics] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:8:5-67
+14-->[:firebase_analytics] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[:firebase_analytics] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:9:5-68
+15-->[:firebase_analytics] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:9:22-65
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:26:5-82
+16-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:26:22-79
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:5-110
+17-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:26:22-107
+18    <!--
+19 io.flutter.app.FlutterApplication is an android.app.Application that
+20         calls FlutterMain.startInitialization(this); in its onCreate method.
+21         In most cases you can leave this as-is, but you if you want to provide
+22         additional functionality it is fine to subclass or reimplement
+23         FlutterApplication and put your custom class here.
+24    -->
+25    <application
+25-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:8:5-29:19
+26        android:name="io.flutter.app.FlutterApplication"
+26-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:9:9-57
+27        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+27-->[androidx.core:core:1.0.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\3aabd8abbe4aca13d5de98eb4193fb62\core-1.0.2\AndroidManifest.xml:22:18-86
+28        android:icon="@mipmap/ic_launcher"
+28-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:11:9-43
+29        android:label="ecommerce" >
+29-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:10:9-34
+30        <activity
+30-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:12:9-23:20
+31            android:name="com.example.ecommerce.MainActivity"
+31-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:13:13-41
+32            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+32-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:16:13-163
+33            android:hardwareAccelerated="true"
+33-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:17:13-47
+34            android:launchMode="singleTop"
+34-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:14:13-43
+35            android:theme="@style/LaunchTheme"
+35-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:15:13-47
+36            android:windowSoftInputMode="adjustResize" >
+36-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:18:13-55
+37            <intent-filter>
+37-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:19:13-22:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:20:17-68
+38-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:20:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:21:17-76
+40-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:21:27-74
+41            </intent-filter>
+42        </activity>
+43        <!--
+44             Don't delete the meta-data below.
+45             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+46        -->
+47        <meta-data
+47-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:26:9-28:33
+48            android:name="flutterEmbedding"
+48-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:27:13-44
+49            android:value="2" />
+49-->C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\android\app\src\main\AndroidManifest.xml:28:13-30
+50
+51        <service
+51-->[:firebase_storage] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+52            android:name="com.google.firebase.components.ComponentDiscoveryService"
+52-->[:firebase_storage] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+53            android:directBootAware="true"
+53-->[com.google.firebase:firebase-common:19.3.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\6c5442d34d0a449df71536fea9405870\jetified-firebase-common-19.3.0\AndroidManifest.xml:34:13-43
+54            android:exported="false" >
+54-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\2697c76a0f5f12bfd5243df60859b6b7\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:19:13-37
+55            <meta-data
+55-->[:firebase_storage] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+56                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
+56-->[:firebase_storage] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:10:17-126
+57                android:value="com.google.firebase.components.ComponentRegistrar" />
+57-->[:firebase_storage] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_storage\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+58            <meta-data
+58-->[:firebase_auth] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+59                android:name="com.google.firebase.components:io.flutter.plugins.firebaseauth.FlutterFirebaseAppRegistrar"
+59-->[:firebase_auth] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:10:17-122
+60                android:value="com.google.firebase.components.ComponentRegistrar" />
+60-->[:firebase_auth] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_auth\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+61            <meta-data
+61-->[:cloud_firestore] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+62                android:name="com.google.firebase.components:io.flutter.plugins.firebase.cloudfirestore.FlutterFirebaseAppRegistrar"
+62-->[:cloud_firestore] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:10:17-133
+63                android:value="com.google.firebase.components.ComponentRegistrar" />
+63-->[:cloud_firestore] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\cloud_firestore\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+64            <meta-data
+64-->[:firebase_core] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+65                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseAppRegistrar"
+65-->[:firebase_core] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:10:17-123
+66                android:value="com.google.firebase.components.ComponentRegistrar" />
+66-->[:firebase_core] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_core\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+67            <meta-data
+67-->[:firebase_analytics] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:13:13-15:85
+68                android:name="com.google.firebase.components:io.flutter.plugins.firebaseanalytics.FlutterFirebaseAppRegistrar"
+68-->[:firebase_analytics] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:14:17-127
+69                android:value="com.google.firebase.components.ComponentRegistrar" />
+69-->[:firebase_analytics] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\firebase_analytics\intermediates\library_manifest\release\AndroidManifest.xml:15:17-82
+70            <meta-data
+70-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\047c453213b480ea53ff1c0804aead1a\jetified-firebase-storage-17.0.0\AndroidManifest.xml:31:13-33:85
+71                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+71-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\047c453213b480ea53ff1c0804aead1a\jetified-firebase-storage-17.0.0\AndroidManifest.xml:32:17-107
+72                android:value="com.google.firebase.components.ComponentRegistrar" />
+72-->[com.google.firebase:firebase-storage:17.0.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\047c453213b480ea53ff1c0804aead1a\jetified-firebase-storage-17.0.0\AndroidManifest.xml:33:17-82
+73            <meta-data
+73-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\2697c76a0f5f12bfd5243df60859b6b7\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:20:13-22:85
+74                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+74-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\2697c76a0f5f12bfd5243df60859b6b7\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:21:17-111
+75                android:value="com.google.firebase.components.ComponentRegistrar" />
+75-->[com.google.firebase:firebase-firestore:21.3.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\2697c76a0f5f12bfd5243df60859b6b7\jetified-firebase-firestore-21.3.0\AndroidManifest.xml:22:17-82
+76            <meta-data
+76-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:36:13-38:85
+77                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+77-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:37:17-109
+78                android:value="com.google.firebase.components.ComponentRegistrar" />
+78-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:38:17-82
+79            <meta-data
+79-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a9719758fdd050afc1f913ba6a549545\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:30:13-32:85
+80                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+80-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a9719758fdd050afc1f913ba6a549545\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:31:17-139
+81                android:value="com.google.firebase.components.ComponentRegistrar" />
+81-->[com.google.android.gms:play-services-measurement-api:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a9719758fdd050afc1f913ba6a549545\jetified-play-services-measurement-api-16.5.0\AndroidManifest.xml:32:17-82
+82            <meta-data
+82-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:32:13-34:85
+83                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+83-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:33:17-96
+84                android:value="com.google.firebase.components.ComponentRegistrar" />
+84-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:34:17-82
+85        </service>
+86
+87        <provider
+87-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:11:9-19:20
+88            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+88-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:12:13-82
+89            android:authorities="com.example.ecommerce.flutter.image_provider"
+89-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:13:13-74
+90            android:exported="false"
+90-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:14:13-37
+91            android:grantUriPermissions="true" >
+91-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:15:13-47
+92            <meta-data
+92-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:16:13-18:75
+93                android:name="android.support.FILE_PROVIDER_PATHS"
+93-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:17:17-67
+94                android:resource="@xml/flutter_image_picker_file_paths" />
+94-->[:image_picker] C:\Users\fatih\Desktop\FlutterProjects\EcommerceOnPhone\ecommerce\build\image_picker\intermediates\library_manifest\release\AndroidManifest.xml:18:17-72
+95        </provider>
+96
+97        <activity
+97-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:24:9-31:50
+98            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+98-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:25:13-85
+99            android:excludeFromRecents="true"
+99-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:26:13-46
+100            android:exported="true"
+100-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:27:13-36
+101            android:launchMode="singleTask"
+101-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:28:13-44
+102            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+102-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:29:13-102
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.firebase:firebase-auth:19.2.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a83bb62cb43b672cf00b874e0ee6110c\firebase-auth-19.2.0\AndroidManifest.xml:30:13-72
+104
+105        <receiver
+105-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:37:9-44:20
+106            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+106-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:38:13-78
+107            android:exported="true"
+107-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:39:13-36
+108            android:permission="com.google.android.c2dm.permission.SEND" >
+108-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:40:13-73
+109            <intent-filter>
+109-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:41:13-43:29
+110                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+110-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:17-81
+110-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:42:25-78
+111            </intent-filter>
+112        </receiver>
+113        <!--
+114             FirebaseInstanceIdService performs security checks at runtime,
+115             no need for explicit permissions despite exported="true"
+116        -->
+117        <service
+117-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:50:9-56:19
+118            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+118-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:51:13-77
+119            android:exported="true" >
+119-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:52:13-36
+120            <intent-filter android:priority="-500" >
+120-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:53:13-55:29
+120-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:53:28-51
+121                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+121-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:54:17-80
+121-->[com.google.firebase:firebase-iid:17.1.2] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\e2390637f8e7a81f9fbafb7a4f286669\jetified-firebase-iid-17.1.2\AndroidManifest.xml:54:25-77
+122            </intent-filter>
+123        </service>
+124
+125        <provider
+125-->[com.google.firebase:firebase-common:19.3.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\6c5442d34d0a449df71536fea9405870\jetified-firebase-common-19.3.0\AndroidManifest.xml:26:9-30:39
+126            android:name="com.google.firebase.provider.FirebaseInitProvider"
+126-->[com.google.firebase:firebase-common:19.3.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\6c5442d34d0a449df71536fea9405870\jetified-firebase-common-19.3.0\AndroidManifest.xml:27:13-77
+127            android:authorities="com.example.ecommerce.firebaseinitprovider"
+127-->[com.google.firebase:firebase-common:19.3.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\6c5442d34d0a449df71536fea9405870\jetified-firebase-common-19.3.0\AndroidManifest.xml:28:13-72
+128            android:exported="false"
+128-->[com.google.firebase:firebase-common:19.3.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\6c5442d34d0a449df71536fea9405870\jetified-firebase-common-19.3.0\AndroidManifest.xml:29:13-37
+129            android:initOrder="100" />
+129-->[com.google.firebase:firebase-common:19.3.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\6c5442d34d0a449df71536fea9405870\jetified-firebase-common-19.3.0\AndroidManifest.xml:30:13-36
+130
+131        <receiver
+131-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:29:9-33:20
+132            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+132-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:30:13-85
+133            android:enabled="true"
+133-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:31:13-35
+134            android:exported="false" >
+134-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:32:13-37
+135        </receiver>
+136        <receiver
+136-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:34:9-42:20
+137            android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+137-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:35:13-100
+138            android:enabled="true"
+138-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:36:13-35
+139            android:exported="true"
+139-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:37:13-36
+140            android:permission="android.permission.INSTALL_PACKAGES" >
+140-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:38:13-69
+141            <intent-filter>
+141-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:39:13-41:29
+142                <action android:name="com.android.vending.INSTALL_REFERRER" />
+142-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:17-79
+142-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:40:25-76
+143            </intent-filter>
+144        </receiver>
+145
+146        <service
+146-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:44:9-47:40
+147            android:name="com.google.android.gms.measurement.AppMeasurementService"
+147-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:45:13-84
+148            android:enabled="true"
+148-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:46:13-35
+149            android:exported="false" />
+149-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:47:13-37
+150        <service
+150-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:48:9-52:72
+151            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+151-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:49:13-87
+152            android:enabled="true"
+152-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:50:13-35
+153            android:exported="false"
+153-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:51:13-37
+154            android:permission="android.permission.BIND_JOB_SERVICE" />
+154-->[com.google.android.gms:play-services-measurement:16.5.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\a3a2cb53bd8cf2ce8eabd5ab3193d804\jetified-play-services-measurement-16.5.0\AndroidManifest.xml:52:13-69
+155
+156        <activity
+156-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+157            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+157-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+158            android:exported="false"
+158-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+159            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+159-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\6eb14f512292913515d869914807ad40\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+160
+161        <meta-data
+161-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\4d00566a54165d15307f718d9b8c7b35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+162            android:name="com.google.android.gms.version"
+162-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\4d00566a54165d15307f718d9b8c7b35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+163            android:value="@integer/google_play_services_version" />
+163-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\fatih\.gradle\caches\transforms-2\files-2.1\4d00566a54165d15307f718d9b8c7b35\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+164    </application>
+165
+166</manifest>

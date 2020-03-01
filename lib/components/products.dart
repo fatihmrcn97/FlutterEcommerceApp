@@ -27,8 +27,38 @@ class _ProductsState extends State<Products> {
       "price": 50,
     },
     {
-      "name": "Pink Shoes",
+      "name": "Hills",
       "picture": "images/products/hills1.jpeg",
+      "old_price": 100,
+      "price": 50,
+    },
+     {
+      "name": "Pant",
+      "picture": "images/products/pants1.jpg",
+      "old_price": 100,
+      "price": 50,
+    },
+     {
+      "name": "Grey pant",
+      "picture": "images/products/pants2.jpeg",
+      "old_price": 100,
+      "price": 50,
+    },
+     {
+      "name": "Shoe",
+      "picture": "images/products/shoe1.jpg",
+      "old_price": 100,
+      "price": 50,
+    },
+     {
+      "name": "Skirt",
+      "picture": "images/products/skt1.jpeg",
+      "old_price": 100,
+      "price": 50,
+    },
+     {
+      "name": "Pink Skirt",
+      "picture": "images/products/skt2.jpeg",
       "old_price": 100,
       "price": 50,
     },
@@ -55,6 +85,7 @@ class _ProductsState extends State<Products> {
           );
         });
   }
+  
 }
 
 class Single_product extends StatelessWidget {

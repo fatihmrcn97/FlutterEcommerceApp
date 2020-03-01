@@ -1,0 +1,4 @@
+#Wed Feb 26 19:17:12 EET 2020
+base.0=C\:\\Users\\fatih\\Desktop\\FlutterProjects\\EcommerceOnPhone\\ecommerce\\build\\app\\intermediates\\transforms\\r8\\release\\0\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
